@@ -1,1 +1,3 @@
-# ca_lottery_api
+# California State Lottery API
+
+url
