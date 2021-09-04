@@ -11,3 +11,5 @@ Free Lametric App:
 MEGA MILLIONS® - > https://apps.lametric.com/apps/california_state_lottery__mega_millions%C2%AE_/12372
 
 POWERBALL® - > https://apps.lametric.com/apps/california_state_lottery__powerball%C2%AE_/12376
+
+SUPERLOTTO PLUS® - > https://apps.lametric.com/apps/california_state_lottery__superlotto_plus%C2%AE_/12377
