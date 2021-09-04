@@ -12,6 +12,7 @@ def lambda_handler(event, context):
     game_name = data['Name']
     next_draw = data['NextDraw']['DrawNumber']
     next_draw_date = data['NextDraw']['DrawDate']
+    next_draw_jackpot = data['NextDraw']['JackpotAmount']
     most_recent_draw_number = data['MostRecentDraw']['DrawNumber']
     most_recent_draw_date = data['MostRecentDraw']['DrawDate']
     number0 = data['MostRecentDraw']['WinningNumbers']['0']['Number']
@@ -23,12 +24,12 @@ def lambda_handler(event, context):
     api_response = {
         "frames": [
             {
-                "text": str(game_name) + " - Next Draw: " + str(next_draw) + " will be played on, " + str(next_draw_date),
+                "text": str(game_name) + " - Next Draw: " + str(next_draw) + " will be played on, " + str(next_draw_date)[:10] + " for $" + str(next_draw_jackpot)[:3] + " MILLION*",
                 "icon": 46733,
                 "index": 0
             },
             {
-                "text": str(game_name) + " - Last Draw: " + str(most_recent_draw_number) + " was played on, " + str(most_recent_draw_date),
+                "text": str(game_name) + " - Last Draw: " + str(most_recent_draw_number) + " was played on, " + str(most_recent_draw_date)[:10],
                 "icon": 3273,
                 "index": 1
             },
