@@ -5,3 +5,6 @@ Several AWS Lambda functions to make custom API for IFTTT & LaMetric, this pulls
 California State's Lottery API is not publicly documented, this development has came from trial and error.
 
 using AWS Lambda = Python 3.9 and custom layer (Python Package: Requests)
+
+Free Lametric App:
+https://apps.lametric.com/apps/ca_lottery__mega_millions%C2%AE_/12372
