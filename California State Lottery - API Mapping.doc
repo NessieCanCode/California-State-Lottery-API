@@ -1,0 +1,11 @@
+Base URL: https://www.calottery.com/api/DrawGameApi/DrawGamePastDrawResults/{DrawGameId}/1/20
+
+Tested/Discovered DrawGameId's:
+
+"DrawGameId":15,"Name":"MEGA Millions"
+"DrawGameId":14,"Name":"Daily 4"
+"DrawGameId":12,"Name":"POWERBALL"
+"DrawGameId":11,"Name":"Daily Derby"
+"DrawGameId":10,"Name":"Fantasy 5"
+"DrawGameId":9,"Name":"Daily 3"
+"DrawGameId":8,"Name":"SuperLotto Plus"
