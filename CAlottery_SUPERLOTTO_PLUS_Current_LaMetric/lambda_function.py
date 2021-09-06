@@ -24,7 +24,7 @@ def lambda_handler(event, context):
     api_response = {
         "frames": [
             {
-                "text": str(game_name) + " - Next Draw: " + str(next_draw) + " will be played on, " + str(next_draw_date)[:10] + " for $" + str(next_draw_jackpot)[:3] + " MILLION*",
+                "text": str(game_name) + " - Next Draw: " + str(next_draw) + " will be played on, " + str(next_draw_date)[:10] + " for $" + str(next_draw_jackpot)[:-8] + " MILLION*",
                 "icon": 46733,
                 "index": 0
             },
