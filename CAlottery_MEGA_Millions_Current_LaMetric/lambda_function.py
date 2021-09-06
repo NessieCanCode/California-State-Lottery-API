@@ -3,7 +3,7 @@ import requests
 
 
 def lambda_handler(event, context):
-    # DrawGameId = 15, Name = MEGA Millions
+    #DrawGameId = 15, Name = MEGA Millions
 
     url = "https://www.calottery.com/api/DrawGameApi/DrawGamePastDrawResults/15/1/20"
 
